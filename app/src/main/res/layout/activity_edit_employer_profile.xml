@@ -1,0 +1,207 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tinted_silver"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true">
+
+        <RelativeLayout
+            android:id="@+id/relative_pic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/user_edit_profile_photo"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_action_person"
+                android:layout_centerHorizontal="true"
+                app:civ_fill_color="#41ba7a"
+                app:civ_border_width="3dp"
+                app:civ_border_color="@color/White"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change Picture"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_below="@+id/user_edit_profile_photo"
+                android:textColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:id="@+id/editprofile_employer_titlename_txt"
+            android:layout_width="match_parent"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/relative_pic"
+            android:layout_height="wrap_content"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/editprofile_employer_titlename_txt"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/editprofile_employer_fullname_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:text="Full Name"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/linear_fullname"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/editprofile_employer_fullname_txt"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/editprofile_employer_fullname"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimary"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:padding="10dp"
+                            android:textSize="17.5dp"
+                            android:layout_below="@+id/editprofile_employer_fullname_txt"/>
+
+                        <ImageButton
+                            android:id="@+id/editprofile_employer_editfullname"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:drawable/ic_menu_edit"/>
+
+                    </LinearLayout>
+
+
+
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:id="@+id/editprofile_employer_mobileno_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:text="Mobile NO"/>
+
+                    <EditText
+                        android:id="@+id/editprofile_employer_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:padding="10dp"
+                        android:layout_marginRight="20dp"
+                        android:textSize="16sp"
+                        android:layout_below="@+id/editprofile_employer_mobileno_txt"
+                        android:textColor="@color/colorPrimary"/>
+
+
+                </RelativeLayout>
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/editprofile_employer_resState_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textStyle="bold"
+                        android:text="State Of Residence"/>
+
+
+                    <EditText
+                        android:id="@+id/editprofile_employer_state_of_residence"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16dp"
+                        android:padding="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:focusable="false"
+                        android:drawableRight="@mipmap/triangle"
+                        android:layout_below="@+id/editprofile_employer_resState_txt"/>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

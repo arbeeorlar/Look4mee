@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="devsp.look4mee.MainActivity">
+    <item
+        android:id="@+id/option_menu_editprofile_artisan"
+        android:orderInCategory="1"
+        android:title="Edit myProfile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_menu_artisan_logout"
+        android:orderInCategory="2"
+        android:title="Logout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/option_menu_about_artisan"
+        android:orderInCategory="3"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>

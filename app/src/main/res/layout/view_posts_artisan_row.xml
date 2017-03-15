@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user_photo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/ic_action_person"
+        app:civ_fill_color="#41ba7a"
+        />
+
+    <TextView
+        android:id="@+id/poster_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingLeft="5dp"
+        android:lines="1"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/user_photo"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        />
+
+    <TextView
+        android:id="@+id/job_post_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/poster_fullname"
+        android:layout_toRightOf="@id/user_photo"
+        android:textSize="16sp"
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        />
+
+</RelativeLayout>

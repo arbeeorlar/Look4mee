@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/employer_myprofile"
+            android:checked="false"
+            android:icon="@mipmap/home"
+            android:title="@string/myprofile_string"/>
+
+        <item
+            android:id="@+id/post_jobs"
+            android:checked="false"
+            android:icon="@mipmap/feeds"
+            android:title="@string/look4mee_post" />
+
+        <item
+            android:id="@+id/view_posts"
+            android:checked="false"
+            android:icon="@mipmap/list_ul"
+            android:title="@string/look4mee_view_posts"/>
+
+        <item
+            android:id="@+id/log_out"
+            android:checked="false"
+            android:title="@string/logout"/>
+
+    </group>
+
+</menu>

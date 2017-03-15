@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content">
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/user_photo"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:src="@mipmap/ic_action_person"-->
+        <!--app:civ_fill_color="#41ba7a"-->
+        <!--/>-->
+
+    <ImageView
+        android:id="@+id/item_letter"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/job_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_letter"
+        android:textSize="17sp"
+        android:gravity="start"
+        android:textAlignment="gravity"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:padding="6dp"
+        android:text="Full job description of an employer goes here.."
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/readmore"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/job_desc"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:layout_toRightOf="@+id/item_letter"-->
+        <!--android:textColor="@color/colorPrimary"-->
+        <!--android:text="Read More"-->
+        <!--/>-->
+
+    <TextView
+        android:id="@+id/jobTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air condition Repairer"
+        android:paddingLeft="10dp"
+        android:textColor="@color/ForestGreen"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@id/job_desc"
+        android:layout_toRightOf="@id/item_letter"/>
+
+    <TextView
+        android:id="@+id/upload_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:layout_below="@id/jobTitle"
+        android:gravity="right"
+        android:padding="5dp"
+        android:typeface="monospace"
+        android:text="12/29/1999"
+        />
+
+
+
+</RelativeLayout>

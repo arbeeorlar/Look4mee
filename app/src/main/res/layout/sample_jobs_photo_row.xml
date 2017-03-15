@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardBackgroundColor="@color/tinted_silver"
+        android:layout_height="wrap_content">
+
+            <devsp.look4mee.Utilities.ImageViewScaler
+                android:id="@+id/editskills_sample_photo"
+                android:layout_width="180dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="200dp"/>
+
+            <ImageButton
+                android:id="@+id/editskills_remove_sample_photo"
+                android:layout_width="20dp"
+                android:layout_toRightOf="@+id/editskills_sample_photo"
+                android:layout_gravity="top|right"
+                android:src="@android:drawable/ic_delete"
+                android:layout_height="18dp" />
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

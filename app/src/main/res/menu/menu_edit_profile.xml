@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.EditArtisanProfile_Activity">
+
+    <item
+        android:id="@+id/action_done"
+        android:title="Done"
+        app:showAsAction="always"/>
+            <!--<item-->
+                <!--android:id="@+id/profile"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:icon="@mipmap/ic_action_person"-->
+                <!--app:showAsAction="never"-->
+                <!--android:title="PROFILE" />-->
+
+            <!--<item-->
+                <!--android:id="@+id/c"-->
+                <!--android:orderInCategory="100"-->
+                <!--android:title="COMPLETED TRIPS" />-->
+
+        <!--</menu>-->
+</menu>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context="devsp.look4mee.Activity.ArtisanReg_Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/reg_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginTop="20dp"
+            android:text="Registration"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"
+            android:textSize="18.5sp"
+            android:gravity="center"/>
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+            <!--android:id="@+id/profileImage"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="90dp"-->
+            <!--app:civ_border_color="@color/colorPrimaryDark"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--app:civ_border_width="0.4dp"-->
+            <!--android:src="@mipmap/ic_action_usericon"-->
+            <!--android:layout_below="@+id/reg_txt"-->
+            <!--android:contentDescription="UserProfile"/>-->
+
+        <RelativeLayout
+            android:id="@+id/relative_personalinfo"
+            android:layout_below="@id/reg_txt"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/personal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Personal Information"/>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/Gray"
+                android:layout_below="@id/personal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_1"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_below="@+id/relative_personalinfo"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/firstname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:textSize="16dp"
+                android:lines="1"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="10dp"
+                android:hint="First name"/>
+
+            <EditText
+                android:id="@+id/surname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/Black"
+                android:layout_below="@id/firstname_txt"
+                android:lines="1"
+                android:inputType="textPersonName"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:hint="Surname"/>
+
+
+            <LinearLayout
+                android:id="@+id/linear_category"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/surname_txt"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+
+                <!--<android.support.v7.widget.RecyclerView-->
+                    <!--android:id="@+id/additionalskills_recycler"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:scrollbars="vertical"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:layout_marginBottom="10dp"/>-->
+
+                <LinearLayout
+                    android:id="@+id/container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <EditText
+                android:id="@+id/state_residence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:layout_below="@+id/linear_category"
+                android:drawableRight="@mipmap/triangle"
+                android:hint="State of residence"
+                android:textSize="16dp"
+                android:layout_marginBottom="10dp"
+                android:focusable="false" />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/state_residence"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:textSize="16dp"
+                    android:paddingLeft="5dp"
+                    android:drawableRight="@android:drawable/ic_input_add"
+                    android:text="Choose Your Skill(s)"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:focusable="false" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_skills"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@id/category"
+                    android:layout_height="wrap_content">
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/artisan_skills_recycler"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+                        android:visibility="gone"
+                        android:layout_marginBottom="10dp"/>
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/no_skill_txt"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="10dp"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textColor="@color/Black"-->
+                    <!--android:text="No Skill(s) have been added"/>-->
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative_accinfo"
+            android:layout_below="@id/relative_1"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                android:text="Look4mee account credential"/>
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+
+                android:layout_below="@id/sign"
+                android:background="@color/Gray"/>
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relative_accinfo"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/mobileno_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:hint="Phone number (11 digit)"/>
+
+
+        <EditText
+            android:id="@+id/password_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:textSize="16dp"
+            android:inputType="textPassword"
+            android:layout_below="@id/mobileno_txt"
+            android:lines="1"
+            android:layout_marginBottom="10dp"
+            android:hint="Password"/>
+
+        <EditText
+            android:id="@+id/confirm_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"
+            android:layout_marginBottom="10dp"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:textSize="16dp"
+            android:layout_below="@id/password_txt"
+            android:hint="Confirm Password"/>
+
+
+
+    </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/register_artisan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button"
+            android:layout_below="@+id/relative_2"/>
+
+
+        <ProgressBar
+            android:id="@+id/artisan_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

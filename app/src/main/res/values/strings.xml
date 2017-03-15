@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Look4mee</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Sign In</string>
+    <string name="logout">Logout</string>
+    <string name="artisan_activity">Artisan Signup</string>
+    <string name="employer_activity">Employer Signup</string>
+    <string name="home_string">Home</string>
+    <string name="myprofile_string">myProfile</string>
+    <string name="feed_string">Feeds</string>
+    <string name="look4mee_post">Post Job</string>
+    <string name="look4mee_view_posts">View Posts</string>
+    <string name="look4mee_post_txt">Create Job Post</string>
+
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="editmyprofile">Edit myProfile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

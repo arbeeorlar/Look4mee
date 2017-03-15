@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="96e33a7aaee00ab64270e2a9887b8f9ef32c8b73">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.0_ddcf17b76dca5a55a47bff6493ca9d38d0c90efd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_5f0e018dc690514f67ca657c8bafacb52d25d179/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.0_aea8f6ff751e312aa090020c8b8f69a19144d0d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_bfb61999a7fc91641c35f595f0d07c25c491c960/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_54a2d8daa2f3ffe119525d802d01ef463c24ec0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.amulyakhare/com.amulyakhare.textdrawable/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.amulyakhare-com.amulyakhare.textdrawable-1.0.1_2b86c0f934700cf347c60f42678bd72badd75c6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.0_3fe92ba4da4723133757b74dc5a021f49e211def/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.0_f05c3eeca197a9c4dd3ce036114b608ffae5b281/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_890dccebe5c400c91c596005fd679f9a88d3219a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_52815bd3c7b0f20714148bf38f135befb7fa8be8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.0_ea68bf7c54d6ed2a4c835ad8faf6845ed31d66e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.0_2d6e069edabf9a7dac4192a5149effeb8307079d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.0_ad8f51f77572a4daae0cc6da80eda07ba5dffc2b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="5a7134b9959a758ed05e55799adfa211ee803693">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_15cc4c509866755c615151a179cc7bb08fa1f4b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.0_5660e87be3421846d0c56b4fa20136031d608d74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.0_f402ebbca221653da51e0866a9ce147ef3cbfa51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.0_8627554314349a6ef45fd5c59da24b330fbe9d01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.0_51569f9757e7f983636d1875084e84684b16b11a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.0_4d2b86b2607d74f1f387e2bbec04eb055f3dbc0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.0_9d2b05ad8da7b7695f8150b46dae63350bca734d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="d9539523f095105ad58e1d48631abee3eda7d5ff">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b29883b931a746809d19f5d9731d5704d27f0b69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/Users/macbookpro/AndroidStudioProjects/Look4mee/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.0_6f7ef3827d2b5ac2753df5ae3dc4d54d2bec78c4/classes.dex" />
+    </item>
+
+</items>

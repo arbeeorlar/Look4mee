@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="folaoyewole.look4mee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.Dispatch_Activity"
+            android:label="@string/app_name"
+            android:theme="@style/AppMainTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:label="@string/login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".App.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.ArtisanReg_Activity"
+            android:label="@string/artisan_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".App.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.EmployerReg_Activity"
+            android:label="@string/employer_activity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".App.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activity.DropDownList_Activity"
+            android:label=" "
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.ArtisanReg_Activity" />
+        </activity>
+        <activity
+            android:name=".Activity.Menu"
+            android:theme="@style/AppMenuTheme" />
+        <activity android:name=".Activity.FastScroll_ListActivity" />
+        <activity
+            android:name=".Activity.EditArtisanProfile_Activity"
+            android:label="@string/editmyprofile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Menu" />
+        </activity>
+        <activity
+            android:name=".App.MainActivity"
+            android:label="@string/artisan_activity"
+            android:theme="@style/AppMainTheme" />
+        <activity
+            android:name=".Activity.Menu_Employer"
+            android:theme="@style/AppMenuTheme" />
+        <activity
+            android:name=".Activity.EditEmployerProfile_Activity"
+            android:label="@string/editmyprofile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Activity.Menu_Employer" />
+        </activity>
+    </application>
+
+</manifest>
